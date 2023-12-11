@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="11-todo-list.css">
+</head>
+
+<body>
+    <h1>Todo List</h1>
+    <div class="todo-input-grid">
+        <label for="input-element"><input id="input-element" placeholder="Todo name" class="name-input"></label>
+        <label for="date-input"><input type="date" id="date-input" class="date-input"></label>
+        <button class="add-todo-btn" onclick="
+        addTodos();
+        ">Add</button>
+    </div>
+
+    <div class="display-todo todo-grid"></div>
+
+    <script src="11-todo-list-scripts.js"></script>
+
+</body>
+
+</html>
